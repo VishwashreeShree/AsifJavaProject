@@ -2,6 +2,7 @@
 
 class MyClass{
 
+Awsome Chnage made by user 2
 
 	private static String myMethodnew(String str){
 
