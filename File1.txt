@@ -2,12 +2,13 @@
 
 class MyClass{
 
-	static void myMethodnew(){
-		sysout("MyMethod");
+	private void myMethodnew(){
+		System.out.println("MyMethod");
 	}
 
 	public static void main(String args[]){
 		System.out.println("Welcome to Git! Hello World!!");
-		myMethodnew();
+		MyClas obj = new MyClass();
+		obj.myMethodnew();
 	}
 }
