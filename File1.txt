@@ -2,6 +2,10 @@
 
 class MyClass{
 
+	void myMethod(){
+		sysout("MyMethod");
+	}
+
 	public static void main(String args[]){
 		System.out.println("Welcome to Git! Hello World!!");
 	}
