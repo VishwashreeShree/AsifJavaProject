@@ -2,13 +2,13 @@
 
 class MyClass{
 
-	private static void myMethodnew(String str){
-		System.out.println(str);
+
+	private static String myMethodnew(String str){
+
+		return "MyMethod";
 	}
 
 	public static void main(String args[]){
-		
-		myMethodnew("Welcome to Git! Hello World!!");
-
+		obj.myMethodnew("Welcome to Git! Hello World!!");
 	}
 }
